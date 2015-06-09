@@ -1,22 +1,23 @@
+from house import GRYFFINDOR, SLYTHERINE, RAVENCLAW, HUFFLEPUFF
 
 def hatSort(student):
     """ The magical working under the hat """
     
-    if not student.magic():
+    if not student.magic:
         return "Hogwarts is not for Muggles"
 
-    brave = student.brave()
-    cunning = student.cunning()
-    witty = student.witty()
+    brave = student.brave
+    cunning = student.cunning
+    witty = student.witty
 
     if (brave + cunning + witty > 1):
-        return student.choice()
+        return student.choice
 
     if brave:
-        return "Gryffindor!"
+        return GRYFFINDOR
     elif cunning:
-        return "Slytherine!"
+        return SLYTHERINE
     elif witty:
-        return "Ravenclaw!"
+        return RAVENCLAW
     else:
-        return "Hufflepuff!" 
+        return HUFFLEPUFF
