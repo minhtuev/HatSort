@@ -3,7 +3,7 @@ from house import GRYFFINDOR, SLYTHERINE, RAVENCLAW, HUFFLEPUFF
 def hatSort(student):
     """ The magical working under the hat """
     
-    print ("Sorting " + str(student))
+    print ("Sorting " + str(student) + "...")
     if not (student.magic or student.MIT or student.boxer):
         return "Hogwarts is not for Muggles"
 
