@@ -13,3 +13,6 @@ print hatSort(petunia)
 
 aaron = Student(name="Aaron", boxer=True, brave=True, witty=True, choice=GRYFFINDOR)
 print hatSort(aaron)
+
+beaver = Student(name="beaver", MIT=True, brave=True, witty=True,choice=RAVENCLAW)
+print hatSort(beaver)
