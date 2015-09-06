@@ -1,14 +1,20 @@
 # HatSort
 The inner working of Hogwarts' mysterious Sorting Hat
 
-``` harry = Student(name="Harry", magic=True, cunning=True, brave=True, choice=GRYFFINDOR) ```
+```python
+harry = Student(name="Harry", magic=True, cunning=True, brave=True, choice=GRYFFINDOR)
+print hatSort(harry)
+```
 
-``` print hatSort(harry) ```
+```bash
+>> Gryffindor
+```
 
-``` >> Gryffindor ```
+```python
+petunia = Student(name="Petunia")
+print hatSort(petunia)
+```
 
-``` petunia = Student(name="Petunia") ```
-
-``` print hatSort(petunia) ```
-
-``` >> Hogwarts is not for Muggles ```
+```bash
+>> Hogwarts is not for Muggles
+```
